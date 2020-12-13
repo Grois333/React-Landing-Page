@@ -1067,9 +1067,17 @@ ul{
     margin-right: 0px;
   }
 
+  .left-nav li{
+    padding: 0px;
+  }
+
   .right-nav{
     flex-direction: column;
     margin-left: 0px;
+  }
+
+  .right-nav li{
+    padding: 0px;
   }
 
 }

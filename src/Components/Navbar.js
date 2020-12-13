@@ -7,12 +7,9 @@ const Navbar = () => {
     return (
         <nav className="nav-wrapper">
             <div className="container nav-container">
-
-                {/* <Link className="brand-logo" to="/">Logo</Link> */}
-
                 <ul className="">
                     <div className="left-nav">
-                        <li><NavLink exact to="/"><img src={logo}/></NavLink></li>
+                        <li><NavLink exact to="/"><img src={logo} /></NavLink></li>
                         <li><NavLink to='/trends'>trends</NavLink></li>
                         <li><NavLink to='/collections'>collections</NavLink></li>
                         <li><NavLink to='/tips-guides'>tips & guides</NavLink></li>

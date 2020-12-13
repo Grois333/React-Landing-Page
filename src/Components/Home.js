@@ -35,14 +35,10 @@ class Home extends React.Component {
 
       <div>
 
-        {/* header */}
-        {/* <div className='sides-container'> */}
-
         {/* header section */}
         <div className='left-side'>
 
           {/* image slider */}
-
           <Carousel>
             <Carousel.Item>
               <img
@@ -94,8 +90,6 @@ class Home extends React.Component {
 
         </div>
 
-
-        {/* </div> */}
 
         {/* Gallery Section */}
         <div className="gallery-section">
@@ -207,67 +201,58 @@ class Home extends React.Component {
 
         {/* Footer */}
         <div className="footer-content">
-          
-            
 
-              <div className='footer-bottom'>
-              <ul className='footer-menu'>
+          <div className='footer-bottom'>
+
+            <ul className='footer-menu'>
               <li><a href='#'>trends</a></li>
               <li><a href='#'>collections</a></li>
               <li><a href='#'>tip & guides</a></li>
               <li><a href='#'>find a store</a></li>
               <li><a href='#'>careers</a></li>
             </ul>
-              <div className='contact-info'>
-                <p>tel:+(507) 314-7709</p>
-                <p>fax:+(507) 314-7709</p>
-                <a href="mailto:info@tiendaconceptslife.com">info@tiendaconceptslife.com</a>
-              </div>
+            <div className='contact-info'>
+              <p>tel:+(507) 314-7709</p>
+              <p>fax:+(507) 314-7709</p>
+              <a href="mailto:info@tiendaconceptslife.com">info@tiendaconceptslife.com</a>
+            </div>
 
-              <div className='contact-info2'>
-                <p>Av. República de Brasil 303</p>
-                <p>Panamá</p>
-                <p>Panamá</p>
-              </div>
-              
-              
-              <div className='credits'>
+            <div className='contact-info2'>
+              <p>Av. República de Brasil 303</p>
+              <p>Panamá</p>
+              <p>Panamá</p>
+            </div>
+
+
+            <div className='credits'>
               <img className='logo-white' src={LogoWgite}></img>
               <p>All rights reseved &#169; Tienda Concepts Life</p>
-              </div>
+            </div>
 
-              <div className='socials'>
-                <div>
-              follow us <a href="#"> <i class="fab fa-twitter"></i></a>
-              <a href="#"> <i class="fab fa-facebook-f"></i></a>
-              <a href="#"> <i class="fab fa-instagram"></i></a>
+            <div className='socials'>
+              <div>
+                follow us <a href="#"> <i class="fab fa-twitter"></i></a>
+                <a href="#"> <i class="fab fa-facebook-f"></i></a>
+                <a href="#"> <i class="fab fa-instagram"></i></a>
               </div>
               <p>Created by Isaac Groisman</p>
-              </div>
+            </div>
 
 
-
-
-              </div>
-
-              
-           
-           
-          </div>
-        <div className='footer-container'>
-
-          
-
-          <div className='footer-left'>
           </div>
 
-          <div className='footer-right'></div>
-          
+
+
+
         </div>
         
-    
+        <div className='footer-container'>
 
+          <div className='footer-left'></div>
 
+          <div className='footer-right'></div>
+
+        </div>
 
 
       </div>

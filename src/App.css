@@ -1119,7 +1119,22 @@ ul{
 }
 
 
+@media only screen and (max-width: 545px){
 
+  .contact-info2 p{
+
+    line-height: normal;
+    margin-top: -7px;
+
+  }
+
+  .contact-info2 p:nth-child(3){
+
+    display: none;
+
+  }
+
+}
 
 
 
